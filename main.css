@@ -49,6 +49,10 @@ table {
 
 /* ======== */
 /* Base */
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
 body {
   color: #6d6d6d;
   background-color: white;
@@ -65,6 +69,10 @@ a {
 }
 
 /* Layout */
+html, body, .l-container {
+  height: 100%;
+}
+
 .l-container {
   display: flex;
 }
@@ -80,6 +88,7 @@ footer {
 
 .l-main {
   flex: 1 1 auto;
+  margin: 25px;
 }
 
 /* Modules */
