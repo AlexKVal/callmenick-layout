@@ -82,3 +82,35 @@ footer {
   flex: 1 1 auto;
 }
 
+/* Modules */
+.sidebar {
+  color: #00648c;
+  background-color: #28aadc;
+}
+
+.logo {
+  height: 60px;
+  widows: 60px;
+  margin: 30px;
+  text-indent: -9999px;
+  background: url("http://dummyimage.com/60x60/00648c/fff.png&text=LOGO") center no-repeat;
+}
+
+.menu {
+  padding: 20px 0 40px;
+}
+.menu a {
+  color: #00648c;
+  line-height: 32px;
+}
+.menu a:hover {
+  color: white;
+}
+
+.footer-primary {
+  padding: 12px 0;
+  color: #28aadc;
+  background-color: #00648c;
+  font-size: 12px;
+  line-height: 22px;
+}
