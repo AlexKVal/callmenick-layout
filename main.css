@@ -113,6 +113,7 @@ footer { /* sticky footer */
   padding: 20px 0 40px;
 }
 .menu a {
+  display: block;
   color: #00648c;
   line-height: 32px;
 }
