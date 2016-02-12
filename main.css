@@ -68,7 +68,6 @@ p {
   margin-bottom: 20px;
 }
 a {
-  color: #b3b3b3;
   text-decoration: none;
 }
 
@@ -105,6 +104,12 @@ footer { /* sticky footer */
   background-color: #28aadc;
   overflow-y: auto;
 }
+.sidebar a {
+  color: #00648c;
+}
+.sidebar a:hover {
+  color: white;
+}
 
 .logo {
   height: 60px;
@@ -114,16 +119,20 @@ footer { /* sticky footer */
   background: url("http://dummyimage.com/60x60/00648c/fff.png&text=LOGO") center no-repeat;
 }
 
+.media-icons {
+  font-size: 22px;
+}
+.media-icons > li {
+  display: inline;
+  padding-right: 8px;
+}
+
 .menu {
   padding: 20px 0 40px;
 }
 .menu a {
   display: block;
-  color: #00648c;
-  line-height: 32px;
-}
-.menu a:hover {
-  color: white;
+  margin-bottom: 8px;
 }
 
 .footer-primary {
@@ -139,7 +148,7 @@ footer { /* sticky footer */
 
 .horizontal {
   text-align: right;
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-size: 12px;
 }
 .horizontal > li {
@@ -152,6 +161,9 @@ footer { /* sticky footer */
 }
 .horizontal > li:last-child::after {
   display: none;
+}
+.horizontal a {
+  color: #b3b3b3;
 }
 .horizontal a:hover {
   color: #3b3b3b;
