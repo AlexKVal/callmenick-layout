@@ -91,7 +91,8 @@ footer { /* sticky footer */
 
 .l-main {
   flex: 1 1 auto;
-  margin: 25px;
+  padding: 25px;
+  overflow-y: auto;
 }
 
 /* Modules */
@@ -130,4 +131,8 @@ footer { /* sticky footer */
 }
 .footer-primary span {
   margin-right: 10px;
+}
+
+.content>p {
+  margin-bottom: 20px;
 }
