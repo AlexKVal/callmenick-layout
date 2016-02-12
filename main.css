@@ -133,6 +133,26 @@ footer { /* sticky footer */
   margin-right: 10px;
 }
 
-.content>p {
+.content > p {
   margin-bottom: 20px;
+}
+
+.horizontal {
+  text-align: right;
+  text-transform:uppercase;
+  font-size: 12px;
+}
+.horizontal > li {
+  display: inline-block;
+  margin-left: 5px;
+}
+.horizontal > li::after {
+  content: "\2022";
+  margin-left: 5px;
+}
+.horizontal > li:last-child::after {
+  display: none;
+}
+.horizontal a:hover {
+  color: #3b3b3b;
 }
