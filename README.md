@@ -1,4 +1,7 @@
-The layout is made with 'flex-box' usage.
+- the flexbox layout mode is used
+- the left sidebar is always fixed / sticky
+- the content with the top sub-navigation is scrollable
 
 For now it lools like:
+--
 ![](https://raw.githubusercontent.com/AlexKVal/callmenick-layout/master/result.png)
