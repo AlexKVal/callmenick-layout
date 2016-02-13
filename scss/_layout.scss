@@ -1,0 +1,26 @@
+/* Layout */
+html, body, .l-container {
+  height: 100%;
+}
+
+.l-container {
+  display: flex;
+}
+
+.l-sidebar {
+  flex: 0 0 250px;
+  text-align: center;
+}
+
+footer { /* sticky footer */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 250px; /* should be the same as l-sidebar's */
+}
+
+.l-main {
+  flex: 1 1 auto;
+  padding: 25px;
+  overflow-y: auto;
+}
