@@ -1,3 +1,4 @@
 bower_components
 node_modules
 .DStore
+/main.css.map
