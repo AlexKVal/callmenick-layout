@@ -7,12 +7,13 @@
   color: #00648c;
   background-color: #28aadc;
   overflow-y: auto;
-}
-.sidebar a {
-  color: #00648c;
-}
-.sidebar a:hover {
-  color: white;
+
+  a {
+    color: #00648c;
+  }
+  a:hover {
+    color: white;
+  }
 }
 
 .logo {
@@ -25,18 +26,20 @@
 
 .media-icons {
   font-size: 22px;
-}
-.media-icons > li {
-  display: inline;
-  padding-right: 8px;
+
+  > li {
+    display: inline;
+    padding-right: 8px;
+  }
 }
 
 .menu {
   padding: 20px 0 40px;
-}
-.menu a {
-  display: block;
-  margin-bottom: 8px;
+
+  a {
+    display: block;
+    margin-bottom: 8px;
+  }
 }
 
 .footer-primary {
@@ -45,32 +48,35 @@
   background-color: #00648c;
   font-size: 12px;
   line-height: 22px;
-}
-.footer-primary span {
-  margin-right: 10px;
+
+  span {
+    margin-right: 10px;
+  }
 }
 
 .horizontal {
   text-align: right;
   text-transform: uppercase;
   font-size: 12px;
-}
-.horizontal > li {
-  display: inline-block;
-  margin-left: 5px;
-}
-.horizontal > li::after {
-  content: "\2022";
-  margin-left: 5px;
-}
-.horizontal > li:last-child::after {
-  display: none;
-}
-.horizontal a {
-  color: #b3b3b3;
-}
-.horizontal a:hover {
-  color: #3b3b3b;
+
+  > li {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  > li::after {
+    content: "\2022";
+    margin-left: 5px;
+  }
+  > li:last-child::after {
+    display: none;
+  }
+
+  a {
+    color: #b3b3b3;
+  }
+  a:hover {
+    color: #3b3b3b;
+  }
 }
 
 .separator {
